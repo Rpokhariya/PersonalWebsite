@@ -1,0 +1,19 @@
+.pink {
+    background-color:rgb(252, 70, 182);
+} 
+
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation{
+    background-color:rgb(16, 241, 110);
+    color: whitesmoke;
+    text-align: center;
+}
+
+a{
+    color: whitesmoke;
+}

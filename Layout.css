@@ -1,0 +1,55 @@
+.box{
+    width: 200px;
+    background-color:chartreuse;
+    border: deeppink solid;
+    border-radius: 5px;
+    margin: 10px;
+    /* height: 200px; */
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    background-color: lavender;
+    height:100vh;
+}
+@media only screen and (min-width:600px)
+{
+    #container{
+        background-color: rgb(214, 57, 109);
+    }
+} 
+@media only screen and (min-width:768px)
+{
+    #container{
+        background-color:rgb(29, 27, 27);
+    }
+} 
+@media only screen and (max-width:768px)
+{
+    #container{
+        background-color:lavender;
+    }
+} 
+.o1
+{
+    order: 1;
+}
+.o2
+{
+    order: 2;
+}
+.o3
+{
+    order: 3;
+}
+.o4
+{
+    order: 4;
+}
+#position{
+    position: sticky;
+    left:100px;
+}

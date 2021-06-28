@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(253, 196, 229);
+    padding: 0;
+    margin: 0;
+}
+/* rgb(210, 250, 230) */
+/* rgb(221, 248, 248) */
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hover{
+    color: rgb(126, 119, 126);
+}
+.hover:hover{
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    color: rgb(85, 80, 85);
+    font-size: 25px;
+}
+.pink {
+    background-color:rgb(248, 33, 176);
+    padding-bottom: 0px;
+} 
+/* rgb(252, 70, 182) */
+.profile:hover{
+    width: 30%;
+    height: 30%;
+    transition:all ease-in-out 300ms;
+}
+.iconsize{
+    width: 20px;
+    height: 20px;
+}
+.iconsize:hover{
+    width: 30px;
+    height: 30px;
+    box-shadow: 5px;
+}
+.navigation{
+    background-color:cyan;
+    color: rgb(24, 22, 22);
+    text-align: center;
+}
+/* rgb(255, 255, 255) */
+.galleryimg{
+    width: 300px;
+    height: 300px;
+    opacity: 65%;
+}
+.galleryimg:hover{
+    transition: all ease-in-out 300ms;
+    width: 400px;
+    height: 400px;
+    opacity:100%;
+}
+.font_color{
+    color: rgb(61, 60, 60);
+}
+.textfont{
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(102, 98, 98);
+}
+.box{
+    margin: 20px;
+    padding: 10px;
+    background-color:rgb(31, 252, 252);
+    border: rgb(146, 143, 143) ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 220px;
+}
+/* rgb(183, 248, 216) */
+.box:hover{
+    height: 230px;
+    border-width: 3px;
+}
+.blogbox{
+    float: left;
+    width: 300px;;
+    height: 200px;
+    margin: 2px;
+}
+.blogbox:hover{
+    border: rgb(97, 95, 95) ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.removea{
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+}
+#positiontop{
+    position: sticky;
+    top: 0px;
+}  
+/* #positionbottom{
+    position: sticky;
+    bottom: 10px;
+}   */
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#right{
+    text-align: right;
+}
+#title{
+    color:rgb(163, 241, 202);
+    text-decoration-line: none;
+}
+#heading{
+    font-size: 20px;
+    color:rgb(151, 238, 195);
+    text-align: center;
+    text-decoration:overline;
+    margin: 0px;
+}
+#sfont{
+    color: rgb(100, 98, 98);
+    font-size: 12px;
+    font-family: serif;
+    text-align: center;
+}
+#imgs{
+    width: 60vw;
+    height: 60vh;
+    opacity: 50%;
+}
+#imgs:hover{
+    width: 50vw;
+    height: 80vh;
+    opacity: 100%;
+
+}
+#formdesign{
+    background-color:cyan;
+    padding: 20px;
+    width:fit-content;
+    border:none;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500ssspx;
+    text-align: center;
+}
+input{
+    display: block;
+    padding: 12px;
+    margin: 12px;
+    border:none;
+    background-color: transparent;
+    color: rgb(233, 58, 166);
+    border-bottom: rgb(233, 76, 181) solid;
+    font-size: 20px;
+}
+input:focus{
+    border: none;
+}
+input:hover{
+    border-bottom: none;
+}
+#button{
+    background-color:rgb(226, 31, 161);
+    color: cyan;
+    font-size: 20px;
+    border-radius: 2px;
+    width:40%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+#button:hover{
+    width: 60%;
+    background-color:rgb(207, 19, 144);
+    transition: all ease-in-out 300ms;
+}
+
+
+

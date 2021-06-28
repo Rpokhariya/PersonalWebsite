@@ -1,0 +1,90 @@
+body{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(210, 250, 230);
+}
+/* #background{
+    background-color:rgb(210, 250, 230) ;
+} */
+.pink {
+    background-color:rgb(252, 70, 182);
+    padding-bottom: 0px;
+} 
+.iconsize{
+    width: 20px;
+    height: 20px;
+}
+.iconsize:hover{
+    width: 30px;
+    height: 30px;
+    box-shadow: 5px;
+}
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#right{
+    text-align: right;
+}
+#title{
+    color:rgb(163, 241, 202);
+    text-decoration-line: none;
+}
+
+.navigation{
+    background-color:rgb(151, 238, 195);
+    color: rgb(24, 22, 22);
+    text-align: center;
+}
+
+a{
+    color: rgb(126, 119, 126);
+}
+a:hover{
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    color: rgb(85, 80, 85);
+    font-size: 25px;
+}
+#imgs{
+    width: 60vw;
+    height: 60vh;
+    opacity: 50%;
+}
+#imgs:hover{
+    width: 50vw;
+    height: 80vh;
+    opacity: 100%;
+
+}
+/* marquee{
+    
+} */
+.profile:hover{
+    width: 30%;
+    height: 30%;
+    transition:all ease-in-out 300ms;
+}
+#heading{
+    font-size: 20px;
+    color:rgb(151, 238, 195);
+    text-align: center;
+    text-decoration:overline;
+    margin: 0px;
+}
+.font_color{
+    color: rgb(61, 60, 60);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+div{
+    margin: 0px;
+}
+.textfont{
+    font-size: 20px;
+    font-family: serif;
+}

@@ -1,0 +1,71 @@
+body{
+    padding-left: 10px;
+    padding-right: ;
+}
+#background{
+    background-color:rgb(186, 240, 213) ;
+}
+.pink {
+    background-color:rgb(252, 70, 182);
+    padding-bottom: 0px;
+} 
+
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+    color:rgb(151, 238, 195);
+    text-decoration-line: none;
+}
+
+.navigation{
+    background-color:rgb(151, 238, 195);
+    color: rgb(24, 22, 22);
+    text-align: center;
+}
+
+a{
+    color: rgb(126, 119, 126);
+}
+a:hover{
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    color: rgb(85, 80, 85);
+    font-size: 25px;
+}
+#imgs{
+    width: 60vw;
+    height: 60vh;
+    opacity: 50%;
+}
+#imgs:hover{
+    width: 50vw;
+    height: 80vh;
+    opacity: 100%;
+
+}
+/* marquee{
+    
+} */
+img:hover{
+    width: 30%;
+    height: 30%;
+    transition: all ease-in 500ms ease-out 500ms;
+}
+h1{
+    font-size: 20px;
+    color:rgb(151, 238, 195);
+    text-align: center;
+    text-decoration:overline;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+div{
+    margin-top: 0%;
+}

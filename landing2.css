@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background: url("IMG-20190911-WA0017.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    height: 80vh;
+}
+.head-container{
+    background-color: rgba(0,0,0, 0.5);
+    height: 80vh;
+    text-align: center;
+}
+.head-container>h1 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 4.5rem;
+    color: white;
+    position: relative;
+    top: 37vh;
+}
+#card-container{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    padding:10px;
+    margin: 10px;
+    background-color: darksalmon;
+    display:flex;
+    flex-direction: column;
+}
+.card>h2{
+    text-align: center;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: deepskyblue;
+    border-radius: 2px;
+    max-width: max-content;
+}
+.button:hover{
+    background-color: dodgerblue;
+}
+/* 
+@media screen and(min-width:768px){
+    #card-container{
+        background-color: deeppink;
+    }
+    .card:nth-child(3){
+        display: none;
+    }
+} 
+
+ @media screen and(min-width:600px){
+    card{
+        background-color: deeppink;
+    }
+    .card:nth-child(3){
+        display: flex;
+    }
+} */
